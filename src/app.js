@@ -12,7 +12,9 @@ app.get('/', (req, res) => {
 // Requisito 6: Endpoint de integrantes (JSON)
 const data = {
     'integrantes': [
-        {'nome': 'João'}
+        { 'nome': 'João' },
+        { 'nome': 'Lorenzo' },
+        { 'nome': 'Itallo' }
     ]
 };
 
